@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.instargrandmother">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_instargrandmother_foreground"
+        android:label="인스타그램마더"
+        android:roundIcon="@mipmap/ic_launcher_instargrandmother_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Instargrandmother">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
