@@ -1,10 +1,12 @@
 package com.example.instargrandmother;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 
-import android.graphics.Color;
+import android.content.Intent;
+import android.media.Image;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,9 +15,24 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        
-        toolbar.setTitleTextColor(Color.BLUE);
-        //toolbar.setNavigationIcon(R.mipmap.ic_launcher_instargrandmother_round);
+        ImageButton ib_gf = (ImageButton) findViewById(R.id.imageButton);
+        ib_gf.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), gf_menu.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageButton ib_gm = (ImageButton) findViewById(R.id.imageButton2);
+        ib_gm.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), gm_menu.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }
