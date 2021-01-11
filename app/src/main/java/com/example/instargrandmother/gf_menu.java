@@ -26,5 +26,14 @@ public class gf_menu extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
+        music.setOnClickListener((new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent (getApplicationContext(),gf_music.class);
+                startActivity(intent);
+            }
+        }));
     }
 }

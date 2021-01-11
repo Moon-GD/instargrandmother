@@ -46,15 +46,172 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:layout_width="wrap_content"
+            android:id="@+id/youngtak"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:src="@drawable/grandmother">
+            app:srcCompat="@drawable/youngtak"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_weight="1"/>
 
+        <ImageView
+            android:id="@+id/leechanwon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/youngtak"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_weight="1"/>
 
-
-        </ImageView>
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
+        <Button
+            android:id="@+id/play_youngtak"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:text="재생"/>
+
+        <Button
+            android:id="@+id/stop_youngtak"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:text="정지"/>
+
+        <Button
+            android:id="@+id/play_leechanwon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:text="재생" />
+
+        <Button
+            android:id="@+id/stop_leechanwon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:text="정지" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/kimhojoong"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/youngtak"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/limyoungwoong"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/youngtak"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/play_kimhojoong"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:text="재생"/>
+
+        <Button
+            android:id="@+id/stop_kimhojoong"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:text="정지"/>
+
+        <Button
+            android:id="@+id/play_limyoungwoong"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:text="재생" />
+
+        <Button
+            android:id="@+id/stop_limyoungwoong"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:text="정지" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/previous_gf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:padding="10dp"
+        android:text="뒤로 가기"
+        android:layout_marginTop="5dp"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </LinearLayout>
