@@ -15,6 +15,7 @@ public class gm_menu extends AppCompatActivity {
             setContentView(R.layout.gm_menu);
 
             Button previous = (Button) findViewById(R.id.previous_gm);
+            Button music = (Button) findViewById(R.id.button_music_gm);
             previous.setOnClickListener(new View.OnClickListener(){
 
                 @Override
@@ -23,5 +24,13 @@ public class gm_menu extends AppCompatActivity {
                     startActivity(intent);
                 }
             });
+
+            music.setOnClickListener((new View.OnClickListener(){
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent (getApplicationContext(),gm_music.class);
+                    startActivity(intent);
+                }
+            }));
         }
 }

@@ -18,7 +18,7 @@
         </activity>
         <activity android:name=".gf_menu"/>
         <activity android:name=".gm_menu"/>
-        <activity android:name=".gf_music"/>
+        <activity android:name=".gm_music"/>
     </application>
 
 </manifest>
