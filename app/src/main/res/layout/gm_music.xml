@@ -29,7 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:text="노래방"
+            android:text="할머니노래방"
             android:textSize="40sp" />
 
         <ImageView

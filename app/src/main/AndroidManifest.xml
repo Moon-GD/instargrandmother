@@ -16,9 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".gf_menu"/>
-        <activity android:name=".gm_menu"/>
-        <activity android:name=".gm_music"/>
+
+        <activity android:name=".gf_menu" />
+        <activity android:name=".gm_menu" />
+        <activity android:name=".gm_music" />
     </application>
 
 </manifest>

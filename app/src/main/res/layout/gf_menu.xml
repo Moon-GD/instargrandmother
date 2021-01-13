@@ -41,7 +41,7 @@
     </androidx.appcompat.widget.Toolbar>
 
     <Button
-        android:id="@+id/button_photo_gf"
+        android:id="@+id/button_weather_gf"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#FDC212"
@@ -52,7 +52,7 @@
         android:layout_marginTop="40dp"/>
 
     <Button
-        android:id="@+id/button_music_gf"
+        android:id="@+id/button_news_gf"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#D9FDC212"
